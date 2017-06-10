@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CB908E31EEC657400A27088 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB908E21EEC657400A27088 /* main.m */; };
+		3CB908E61EEC657400A27088 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB908E51EEC657400A27088 /* AppDelegate.m */; };
+		3CB908E91EEC657400A27088 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB908E81EEC657400A27088 /* ViewController.m */; };
+		3CB908EC1EEC657400A27088 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB908EA1EEC657400A27088 /* Main.storyboard */; };
+		3CB908EE1EEC657400A27088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB908ED1EEC657400A27088 /* Assets.xcassets */; };
+		3CB908F11EEC657400A27088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB908EF1EEC657400A27088 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CB908DE1EEC657400A27088 /* ZLPlaceHolderAnimationTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLPlaceHolderAnimationTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB908E21EEC657400A27088 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CB908E41EEC657400A27088 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CB908E51EEC657400A27088 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CB908E71EEC657400A27088 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3CB908E81EEC657400A27088 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CB908EB1EEC657400A27088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CB908ED1EEC657400A27088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CB908F01EEC657400A27088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CB908F21EEC657400A27088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CB908DB1EEC657400A27088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CB908D51EEC657400A27088 = {
+			isa = PBXGroup;
+			children = (
+				3CB908E01EEC657400A27088 /* ZLPlaceHolderAnimationTextFieldDemo */,
+				3CB908DF1EEC657400A27088 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CB908DF1EEC657400A27088 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CB908DE1EEC657400A27088 /* ZLPlaceHolderAnimationTextFieldDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CB908E01EEC657400A27088 /* ZLPlaceHolderAnimationTextFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3CB908E41EEC657400A27088 /* AppDelegate.h */,
+				3CB908E51EEC657400A27088 /* AppDelegate.m */,
+				3CB908E71EEC657400A27088 /* ViewController.h */,
+				3CB908E81EEC657400A27088 /* ViewController.m */,
+				3CB908EA1EEC657400A27088 /* Main.storyboard */,
+				3CB908ED1EEC657400A27088 /* Assets.xcassets */,
+				3CB908EF1EEC657400A27088 /* LaunchScreen.storyboard */,
+				3CB908F21EEC657400A27088 /* Info.plist */,
+				3CB908E11EEC657400A27088 /* Supporting Files */,
+			);
+			path = ZLPlaceHolderAnimationTextFieldDemo;
+			sourceTree = "<group>";
+		};
+		3CB908E11EEC657400A27088 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CB908E21EEC657400A27088 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CB908DD1EEC657400A27088 /* ZLPlaceHolderAnimationTextFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB908F51EEC657400A27088 /* Build configuration list for PBXNativeTarget "ZLPlaceHolderAnimationTextFieldDemo" */;
+			buildPhases = (
+				3CB908DA1EEC657400A27088 /* Sources */,
+				3CB908DB1EEC657400A27088 /* Frameworks */,
+				3CB908DC1EEC657400A27088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLPlaceHolderAnimationTextFieldDemo;
+			productName = ZLPlaceHolderAnimationTextFieldDemo;
+			productReference = 3CB908DE1EEC657400A27088 /* ZLPlaceHolderAnimationTextFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CB908D61EEC657400A27088 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "郎";
+				TargetAttributes = {
+					3CB908DD1EEC657400A27088 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5K4K8K95V5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3CB908D91EEC657400A27088 /* Build configuration list for PBXProject "ZLPlaceHolderAnimationTextFieldDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CB908D51EEC657400A27088;
+			productRefGroup = 3CB908DF1EEC657400A27088 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CB908DD1EEC657400A27088 /* ZLPlaceHolderAnimationTextFieldDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CB908DC1EEC657400A27088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB908F11EEC657400A27088 /* LaunchScreen.storyboard in Resources */,
+				3CB908EE1EEC657400A27088 /* Assets.xcassets in Resources */,
+				3CB908EC1EEC657400A27088 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CB908DA1EEC657400A27088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB908E91EEC657400A27088 /* ViewController.m in Sources */,
+				3CB908E61EEC657400A27088 /* AppDelegate.m in Sources */,
+				3CB908E31EEC657400A27088 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CB908EA1EEC657400A27088 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CB908EB1EEC657400A27088 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CB908EF1EEC657400A27088 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CB908F01EEC657400A27088 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CB908F31EEC657400A27088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CB908F41EEC657400A27088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CB908F61EEC657400A27088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5K4K8K95V5;
+				INFOPLIST_FILE = ZLPlaceHolderAnimationTextFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lang.ZLPlaceHolderAnimationTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CB908F71EEC657400A27088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5K4K8K95V5;
+				INFOPLIST_FILE = ZLPlaceHolderAnimationTextFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lang.ZLPlaceHolderAnimationTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CB908D91EEC657400A27088 /* Build configuration list for PBXProject "ZLPlaceHolderAnimationTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB908F31EEC657400A27088 /* Debug */,
+				3CB908F41EEC657400A27088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB908F51EEC657400A27088 /* Build configuration list for PBXNativeTarget "ZLPlaceHolderAnimationTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB908F61EEC657400A27088 /* Debug */,
+				3CB908F71EEC657400A27088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CB908D61EEC657400A27088 /* Project object */;
+}
