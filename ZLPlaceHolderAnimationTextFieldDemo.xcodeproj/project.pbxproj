@@ -10,9 +10,9 @@
 		3CB908E31EEC657400A27088 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB908E21EEC657400A27088 /* main.m */; };
 		3CB908E61EEC657400A27088 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB908E51EEC657400A27088 /* AppDelegate.m */; };
 		3CB908E91EEC657400A27088 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB908E81EEC657400A27088 /* ViewController.m */; };
-		3CB908EC1EEC657400A27088 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB908EA1EEC657400A27088 /* Main.storyboard */; };
 		3CB908EE1EEC657400A27088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB908ED1EEC657400A27088 /* Assets.xcassets */; };
 		3CB908F11EEC657400A27088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB908EF1EEC657400A27088 /* LaunchScreen.storyboard */; };
+		3CB908FB1EEC660700A27088 /* ZLPlaceHolderAnimationTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB908FA1EEC660700A27088 /* ZLPlaceHolderAnimationTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +22,11 @@
 		3CB908E51EEC657400A27088 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3CB908E71EEC657400A27088 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3CB908E81EEC657400A27088 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3CB908EB1EEC657400A27088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CB908ED1EEC657400A27088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CB908F01EEC657400A27088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CB908F21EEC657400A27088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB908F91EEC660700A27088 /* ZLPlaceHolderAnimationTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPlaceHolderAnimationTextField.h; sourceTree = "<group>"; };
+		3CB908FA1EEC660700A27088 /* ZLPlaceHolderAnimationTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPlaceHolderAnimationTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +59,11 @@
 		3CB908E01EEC657400A27088 /* ZLPlaceHolderAnimationTextFieldDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3CB908F81EEC65E300A27088 /* ZLPlaceHolderAnimationTextField */,
 				3CB908E41EEC657400A27088 /* AppDelegate.h */,
 				3CB908E51EEC657400A27088 /* AppDelegate.m */,
 				3CB908E71EEC657400A27088 /* ViewController.h */,
 				3CB908E81EEC657400A27088 /* ViewController.m */,
-				3CB908EA1EEC657400A27088 /* Main.storyboard */,
 				3CB908ED1EEC657400A27088 /* Assets.xcassets */,
 				3CB908EF1EEC657400A27088 /* LaunchScreen.storyboard */,
 				3CB908F21EEC657400A27088 /* Info.plist */,
@@ -77,6 +78,15 @@
 				3CB908E21EEC657400A27088 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CB908F81EEC65E300A27088 /* ZLPlaceHolderAnimationTextField */ = {
+			isa = PBXGroup;
+			children = (
+				3CB908F91EEC660700A27088 /* ZLPlaceHolderAnimationTextField.h */,
+				3CB908FA1EEC660700A27088 /* ZLPlaceHolderAnimationTextField.m */,
+			);
+			path = ZLPlaceHolderAnimationTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +150,6 @@
 			files = (
 				3CB908F11EEC657400A27088 /* LaunchScreen.storyboard in Resources */,
 				3CB908EE1EEC657400A27088 /* Assets.xcassets in Resources */,
-				3CB908EC1EEC657400A27088 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +162,7 @@
 			files = (
 				3CB908E91EEC657400A27088 /* ViewController.m in Sources */,
 				3CB908E61EEC657400A27088 /* AppDelegate.m in Sources */,
+				3CB908FB1EEC660700A27088 /* ZLPlaceHolderAnimationTextField.m in Sources */,
 				3CB908E31EEC657400A27088 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,14 +170,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3CB908EA1EEC657400A27088 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3CB908EB1EEC657400A27088 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3CB908EF1EEC657400A27088 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
